@@ -24,7 +24,7 @@ on:
         description: "Run on x86_64-darwin"
         required: true
         type: choice
-        default: yes_sandbox_relaxed
+        default: no
         options:
           - "no"
           - yes_sandbox_false
@@ -72,7 +72,7 @@ on:
         description: "Post Result"
         required: true
         type: boolean
-        default: true
+        default: false
       on-success:
         description: "What to do on review success"
         required: true
